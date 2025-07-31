@@ -1,0 +1,17 @@
+# 数据集路径：这个 `path` 字段是可选的。
+# 如果你的 data.yaml 和 train/valid/test 文件夹在同一目录下（你现在的情况就是），
+# 那么可以省略 path 字段，或者将其设置为 '.'。
+# 否则，你需要指定一个相对或绝对路径来定位数据集的根目录。
+# 这里我们直接使用相对路径，所以可以忽略 path 字段或者设置为 .
+# path: . 
+
+# 训练集图片和标签的相对路径
+train: train/images
+val: valid/images
+test: test/images # 如果你的划分脚本生成了测试集，请包含这行
+
+# 类别数量
+nc: 6 # 你的 find_classes.py 脚本找到了 6 个类别
+
+# 类别名称列表，顺序必须和你的 classes.txt 中的顺序以及YOLO TXT标签中的ID完全一致！
+names: ['bulk cargo carrier', 'container ship', 'fishing boat', 'general cargo ship', 'ore carrier', 'passenger ship']

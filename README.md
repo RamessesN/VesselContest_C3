@@ -20,10 +20,10 @@
 
 ## 二、成果展示
 <p align="center">
-
+  <img src="./doc/img/video.gif" alt="video_alt" title="video_img">
 </p>
 
-> 注：原视频见 [**演示视频**]()
+> 注：原视频见 [**演示视频**](./doc/国赛上交材料/Vlog/海里灵活-PPT.mp4)
 
 2. 项目主体结构
 <pre><code>
@@ -31,12 +31,12 @@ src/
 ├── data/                             # 数据处理相关脚本
 │   ├── convert_voc_to_yolo.py        # 将VOC XML转换为YOLO TXT
 │   ├── split_dataset.py              # 划分数据集
-│   ├── analyze_classes.py            # <<<< 您的 final_classic.py 在这里
-│   └── visualize_data.py             # <<<< 您的 draw_xml.py 在这里
+│   ├── analyze_classes.py            # 分析原始数据，生成类别列表
+│   └── visualize_data.py             # 可视化标注数据，用于数据质检
 │
 ├── models/                           # 模型相关脚本
-│   ├── train.py                      # <<<< 您的 train_yolov8_model.py 在这里
-│   └── evaluate.py                   # <<<< 您的 evaluate_test.py 在这里
+│   ├── train.py                      # 使用YOLOv8训练目标检测模型
+│   └── evaluate.py                   # 在测试集上评估模型性能
 │
 ├── utils/                            # 工具函数
 │   └── quantization.py               # 模型量化脚本

@@ -20,10 +20,10 @@
 
 ## 二、成果展示
 <p align="center">
-  <img src="./doc/img/video.gif" alt="video_alt" title="video_img">
+  <img src="./doc/img/vlog.gif" alt="video_alt" title="video_img">
 </p>
 
-> 注：原视频见 [**演示视频**](./doc/国赛上交材料/Vlog/海里灵活-PPT.mp4)
+> 注：原视频见 [**演示视频**](./doc/国赛上交材料/Vlog/海里灵活-vlog.mov)
 
 ## 三、项目主体结构
 <pre><code>
